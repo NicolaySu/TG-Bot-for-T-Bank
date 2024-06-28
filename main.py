@@ -9,7 +9,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 
-TOKEN = "7395636735:AAH8nBLlhjGbZ45V66UxQ5K-koX_GVUpPoY"
+TOKEN = "..."
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode='html'))
 dp = Dispatcher()
